@@ -1,0 +1,7 @@
+local plr = game.Players.LocalPlayer
+
+if plr.Name == "minhxuyenvn" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DeadIsLikeAWind/main1/main/Protected.lua"))()
+else
+    game.Players.LocalPlayer:Kick("Not Whitelisted")
+end
